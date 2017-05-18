@@ -8,4 +8,4 @@
 start() ->
     X = io:get_line("What is your name? "),
     Y = string:strip(X, right, $\n),
-    io:fwrite("Hello, what's cooking, ~s?\nForget about it!", [Y]).
+    io:fwrite("Hello, what's cooking, ~s?\n", [Y]).
