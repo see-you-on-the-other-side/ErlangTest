@@ -6,4 +6,4 @@
 
 
 start() ->
-  io:fwrite("hi, whaww mt's up?\n").
+  io:fwrite("hi, what's up, dude?\n").
