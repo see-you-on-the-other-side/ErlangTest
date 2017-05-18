@@ -7,5 +7,5 @@
 
 start() ->
     X = io:get_line("What is your name? "),
-    %%X = string:strip(X, right, $\n),
-    io:fwrite("hi, what's up, ~s?\n", [X]).
+    Y = string:strip(X, right, $\n),
+    io:fwrite("hi, what's up, ~s?\n", [Y]).
